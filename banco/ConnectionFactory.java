@@ -13,8 +13,8 @@ public class ConnectionFactory {
     private static final String PORTA = "3306";
     private static final String BANCO = "socket";
     private static final String URL = "jdbc:mysql://" + SERVIDOR + ":" + PORTA + "/" + BANCO;
-    private static final String USUARIO = "root";
-    private static final String SENHA = "";
+    private static final String USUARIO = "socket";
+    private static final String SENHA = "socket";
 
     public ConnectionFactory() {
     }
